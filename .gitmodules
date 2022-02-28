@@ -1,16 +1,16 @@
 [submodule "enqueter-api"]
   path = enqueter-api
-  url = https://github.com/sawaryu/enqueter-api.git
   branch = master
+  url = https://github.com/sawaryu/enqueter-api.git
 [submodule "enqueter-front"]
   path = enqueter-front
-  url = https://github.com/sawaryu/enqueter-front.git
   branch = master
+  url = https://github.com/sawaryu/enqueter-front.git
 [submodule "enqueter-web"]
   path = enqueter-web
-  url = https://github.com/sawaryu/enqueter-web.git
   branch = master
+  url = https://github.com/sawaryu/enqueter-web.git
 [submodule "enqueter-terraform"]
   path = enqueter-terraform
-  url = https://github.com/sawaryu/enqueter-terraform.git
   branch = master
+  url = https://github.com/sawaryu/enqueter-terraform.git
