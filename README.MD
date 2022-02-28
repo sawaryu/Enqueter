@@ -15,7 +15,7 @@ Enqueteは「アンケート」を意味します。
 
 # Technologies
 
-`Development Tools`
+`Development`
 * MacOS(BigSur)
 * InteliJIDEA(python community edition)
 * VScode
@@ -54,6 +54,7 @@ Enqueteは「アンケート」を意味します。
 |  ECS Fargate  | Container service for production env |
 |  ECS Scheduled Task | Batch processing on Faragte  |
 |  CloudFront  | Delivering SPA contents  |
+|  S3  | Saving user's avatars|
 |  RDS  | DB managed service (MySQL)  |
 |  CloudWatch Logs  | Log monitoring  |
 |  Docker  | Container environment |
@@ -107,6 +108,8 @@ Main functions in the app.
 
 # Start API by Docker
 
+`Command`
+
 ```bash
 # Start project (*--no-cache is optional)
 $ docker-compose build --no-cache
@@ -122,3 +125,7 @@ $ docker run --rm --net='enqueter_default' --name seed_task -it \
 $ docker run --rm --net='enqueter_default' --name batch_task -it \
   -e SQLALCHEMY_DATABASE_URI='mysql+pymysql://production:production@db/production?charset=utf8mb4' enqueter_api sh shell/batch.sh
 ```
+
+`Attention`
+
+Sending Email with MailGun and S3 upload are not available.

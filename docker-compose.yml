@@ -30,7 +30,7 @@ services:
       args:
         SECRET_KEY: "hogehogehoge"
         FRONT_URL: "http://localhost:3000"
-        MAINTENANCE: "false"
+        SQLALCHEMY_DATABASE_URI: "mysql+pymysql://production:production@db/production?charset=utf8mb4"
     volumes:
       - socket:/tmp
 
