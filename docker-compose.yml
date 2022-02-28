@@ -1,0 +1,46 @@
+# Test
+version: '3.8'
+
+services:
+  db:
+    image: mysql:5.7.31
+    container_name: db
+    hostname: db
+    ports:
+      - 3306:3306
+    expose:
+      - 3306
+    environment:
+      - TZ=Asia/Tokyo
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=production
+      - MYSQL_USER=production
+      - MYSQL_PASSWORD=production
+      - MYSQL_TCP_PORT=3306
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+
+  api:
+    depends_on:
+      - db
+    env_file:
+      - api.env # S3 and Mailgun
+    build:
+      context: ./enqueter-api
+      dockerfile: ./Dockerfile
+      args:
+        SECRET_KEY: "hogehogehoge"
+        FRONT_URL: "http://localhost:3000"
+        MAINTENANCE: "false"
+    volumes:
+      - socket:/tmp
+
+  web:
+    build: ./enqueter-web
+    ports:
+      - "80:80"
+    volumes:
+      - socket:/tmp
+
+volumes:
+  socket:
+
