@@ -38,6 +38,7 @@ Enqueteは「アンケート」を意味します。
 |  Flask  | Backend API server |
 |  Swagger  | API Document |
 |  MySQL  | Database  |
+|  Flask-Migrate  | DB migration  |
 |  MailGun(*external api)  | Email service (used in authentication)  |
 
 `Frontend`
