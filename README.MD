@@ -11,7 +11,7 @@ Enqueteは「アンケート」を意味します。
 「朝食はとる派かとらない派」はたまた「たけのこ里派かきのこの山派」などの意見が分かれる不毛な論争への一種のアンサーになればと考えこのアプリケーションを作成しました。多数派を選択すればポイントを獲得できるというインセンティブを実装することで偏見に囚われない集計が期待できます。
 
 <!-- ![image](images/sample.png) -->
-<img src="images/question.png" width="300" height="">
+<img src="images/example_1.jpg" width="300" height="">
 <img src="images/answered.png" width="500" height="">
 
 
@@ -109,7 +109,9 @@ Main functions in the app.
 
 
 
-# Start API by Docker
+# Testing API by Docker
+
+For testing, get as close as possible to ECS environment.
 
 `Command`
 
