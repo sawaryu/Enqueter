@@ -21,7 +21,8 @@ Password: testpassword
 
 `イメージ`
 
-![image](images/sample-1.jpg)
+<img src="images/sample-1.jpg" width="350">
+
 ![image](images/sample-2.png)
 
 
