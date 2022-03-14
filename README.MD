@@ -1,18 +1,27 @@
 # Enqueter
-
-Enqueteは「アンケート」を意味します。
-
+タイトルの「Enqueter」はフランス語の「enquete(アンケート)」を由来にした造語です。
 
 > https://enqueters.com
 
 > https://tubuanpanman.com/document (*OpenAPI)
 
-一つの質問に対して多数派だと思う方を選択しポイントを獲得するミニゲームサービスです。
+
+`説明`
+
+  一つの質問に対して多数派だと思う方を選択しポイントを獲得するミニゲームサービスです。
 「朝食はとる派かとらない派」はたまた「たけのこ里派かきのこの山派」などの意見が分かれる不毛な論争への一種のアンサーになればと考えこのアプリケーションを作成しました。多数派を選択すればポイントを獲得できるというインセンティブを実装することで偏見に囚われない集計が期待できます。
 
-<!-- ![image](images/sample.png) -->
-<img src="images/example_1.jpg" width="300" height="">
-<img src="images/answered.png" width="500" height="">
+`ログイン`
+
+サインアップにE-mail認証を使用していますが、煩わしいという方は以下のいづれかのユーザーでお試しください。
+```
+Email: test1@example.com ~ test5@example.com
+Password: testpassword 
+```
+
+`イメージ`
+![image](images/sample-1.jpg)
+![image](images/sample-2.png)
 
 
 # Technologies
@@ -77,7 +86,7 @@ Main functions in the app.
 |  Answer | Answer any questions and get points |
 |  Bookmark | Bookmark any questions |
 |  Avatar | Set any avatar |
-|  Pagination | Questions is paginated in "Questions" page |
+|  Pagination | Paginating questions |
 |  InfiniteLoading | Questions is loaded per some numbers in some pages |
 
 `Authentication`
@@ -95,17 +104,20 @@ Main functions in the app.
 
 # Structures
 
-`AWS` (* draw.io)
+`AWS`
 
 ![image](images/aws-structure.png)
 
-`API` (* Swagger Document)
+`API`
 
 ![image](images/api-structure.png)
 
-`DB` (* DB Designer)
+`DB`
 
 ![image](images/db-structure.png)
+
+`E-mail`
+![image](images/email-sample.png)
 
 
 
@@ -137,4 +149,4 @@ $ docker run --rm --net='enqueter_default' --name batch_task -it \
 
 `Attention`
 
-In the local, sending email with MailGun and S3 upload are not available without private environment variables.
+In the local without private environment variables, sending email with MailGun and S3 upload are not available.
