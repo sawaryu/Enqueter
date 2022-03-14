@@ -119,6 +119,7 @@ Main functions in the app.
 ![image](images/db-structure.png)
 
 `E-mail`
+
 ![image](images/email-sample.png)
 
 
