@@ -82,7 +82,7 @@ Main functions in the app.
 | Function | Description |
 | ---- | ---- |
 | Follow | Follow each other |
-| Search | Search another users |
+| Search | Search other users |
 | Notification | Get notification triggered by some events |
 |  Create | Create Questions |
 |  Answer | Answer any questions and get points |
