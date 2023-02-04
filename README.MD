@@ -1,4 +1,7 @@
 # Enqueter
+
+### ※現在稼働していません。
+
 タイトルの「Enqueter」はフランス語の「enquete(アンケート)」を由来にした造語です。
 
 > https://enqueters.com
