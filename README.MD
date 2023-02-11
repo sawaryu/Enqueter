@@ -27,7 +27,7 @@ Password: testpassword
 
 ![image](https://user-images.githubusercontent.com/71795825/218249912-7a7d913e-53fa-4e11-b990-a26f5b0a0a5a.png)
 
-
+<br>
 
 # Technologies
 
@@ -78,6 +78,8 @@ Password: testpassword
 |  CircleCI  | CI/CD pipeline |
 |  Terraform  | IaC tool |
 
+<br>
+
 # Functinos
 Main functions in the app.
 
@@ -107,6 +109,8 @@ Main functions in the app.
 | ---- | ---- |
 | Batch | Aggregate ranking data at regular intervals |
 
+<br>
+
 # Structures
 
 `AWS`
@@ -125,7 +129,7 @@ Main functions in the app.
 
 ![image](images/email-sample.png)
 
-
+<br>
 
 # Testing API by Docker
 
