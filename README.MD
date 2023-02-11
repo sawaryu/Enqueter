@@ -6,9 +6,6 @@
 
 > https://enqueters.com
 
-> https://tubuanpanman.com/document (*OpenAPI)
-
-
 `説明`
 
   一つの質問に対して多数派だと思う方を選択しポイントを獲得するミニゲームサービスです。
