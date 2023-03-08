@@ -27,6 +27,21 @@ Password: testpassword
 
 ![image](https://user-images.githubusercontent.com/71795825/218249912-7a7d913e-53fa-4e11-b990-a26f5b0a0a5a.png)
 
+![image](images/drawer_xs.png)
+
+![image](images/setting.png)
+
+![image](images/profile.png)
+
+![image](images/questions_xs.png)
+
+![image](images/landing.png)
+
+![image](images/login.png)
+
+![image](images/follower.png)
+
+
 <br>
 
 # Technologies
