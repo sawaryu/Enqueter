@@ -27,13 +27,13 @@ Password: testpassword
 
 ![image](https://user-images.githubusercontent.com/71795825/218249912-7a7d913e-53fa-4e11-b990-a26f5b0a0a5a.png)
 
-![image](images/drawer_xs.png)
+<img src="images/drawer_xs.png" width="350">
 
 ![image](images/setting.png)
 
 ![image](images/profile.png)
 
-![image](images/questions_xs.png)
+<img src="images/questions_xs.png" width="350">
 
 ![image](images/landing.png)
 
